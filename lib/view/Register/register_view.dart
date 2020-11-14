@@ -13,8 +13,8 @@ class _RegisterPageState extends State<RegisterPage> {
 
     return Scaffold(
       body: Container(
-        width: MediaQuery.of(context).size.width,
-        height: MediaQuery.of(context).size.height,
+        width: size.width,
+        height: size.height,
         decoration: BoxDecoration(
           color: Colors.white,
         ),
